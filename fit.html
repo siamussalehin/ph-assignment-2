@@ -5,34 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header-section">
 
-        <nav class="display-flex">
+        <nav class="navbar display-flex">
             <div>
-                <h2 class="nav-title">Fitness</h2>
+                <h2 class="nav-title"><em>Fitness</em></h2>
             </div>
-            <div>
+            <div class="nav-ul">
                 <ul>
-                    <li class="home-btn btn-primary">Home</li>
+                    <li>Home</li>
                     <li>Service</li>
                     <li>Contact</li>
                     <li>About</li>
                 </ul>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </nav>
         
     
     <div class="banner">
         <div class="title-section">
-            <h1 class="header-title">Get body in <span class="shape">shape</span> and stay healthy</h1>
+            <h1 class="header-title">Get body in <span class="shape"><em>shape</em></span>  & stay healthy</h1>
             <p class="description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-            <button class="join-btn btn-primary">Join Club Now</button>
-            <button class="dwnld-btn">Download App</button>
+            <div class="button">
+                <button class="join-btn btn-primary">Join Club Now</button>
+                <button class="dwnld-btn">Download App</button>
+            </div>
         </div>
 
-        <div>
+        <div class="title-img">
             <img class="jim-img" src="images/Images 2.png" alt="">
         </div>
     </div>
@@ -69,14 +75,16 @@
 </div>
         </section>
 
-        <section class="run">
-            <div>
+        <section class="display-none">
+            <div class="run">
+            <div class="run-container">
                 <h2 class="run-title">Run an Extra Mile Easily</h2>                    
                 <p class="run-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-                <button class="join-btn btn-primary">Join Now</button>
+                <button class="join-btn btn-primary join-now">Join Now</button>
             </div>
             <div>
                 <img class="run-img" src="images/run.jpg" alt="">
+            </div>
             </div>
 
         </section>
@@ -87,15 +95,47 @@
                 <p class="team-description">We believe fitness should be accessible to everyone, everywhere, regardless of income <br> or access to a gym.</p>
             </div>
             <div class="team-img-container">
-                <img class="trainer-img" src="images/trainer1.png" alt=""><img  class="trainer-img" src="images/trainer2.png" alt=""><img  class="trainer-img" src="images/trainer3.png" alt=""><img  class="trainer-img" src="images/trainer4.png" alt=""><img  class="trainer-img" src="images/trainer5.png" alt=""><img  class="trainer-img" src="images/trainer6.png" alt="">
-
+               <div><img class="trainer-img" src="images/trainer1.png" alt=""></div>
+               <div><img  class="trainer-img" src="images/trainer2.png" alt=""></div>
+               <div><img  class="trainer-img" src="images/trainer3.png" alt=""></div> 
+               <div><img  class="trainer-img" src="images/trainer4.png" alt=""></div>
+               <div><img  class="trainer-img" src="images/trainer5.png" alt=""></div>
+               <div><img  class="trainer-img" src="images/trainer6.png" alt=""></div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        
+        <div class="card-container">
+    <div class="card-1">
+        <h1 class="footer-title nav-title">Fitness</h1>
+        <p class="description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+    </div>
 
-    </footer>
+    <div class="get-started">
+        <h3 class="footer-header">Get Started</h3>
+        <ul>
+            <li>Service</li>
+            <li>Contact us</li>
+            <li>Affiliat Programe</li>
+            <li>About us</li>
+        </ul>
+
+    </div>
+    <div>
+        <h3 class="footer-header">Get Started</h3>
+        <ul>
+            <li>Fitness</li>
+            <li>Platform</li>
+            <li>Workout libary</li>
+            <li>App Design</li>
+        </ul>
+    </div>
+</div>
+    <hr>
+<p class="copy description">All right reserved @Fitness 2024</p>
+</footer>
+
+    
 </body>
 </html>
