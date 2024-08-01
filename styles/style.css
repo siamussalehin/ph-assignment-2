@@ -218,6 +218,8 @@ text-align: left;
     margin-left: 54px;
     
 }
+/* BMI section */
+
 /* Team section */
 .team{
     
@@ -255,6 +257,7 @@ text-align: center;
 hr{
     width: 1059.5px;
     margin-top: 80px;
+    color: #231f1f;
 }
 .copy{
     text-align: center;
@@ -281,7 +284,6 @@ height: 176px;
 
 }
 
-
 .footer-header{
     color: rgb(255, 255, 255);
 font-family: Inter;
@@ -293,16 +295,10 @@ text-align: left;
 }
 
 /* none option */
-.team{
-    display: none;
-}
-footer{
-    display: none;
-}
-
 
 /* media query */
 @media screen and (max-width:576px) {
+    
     .banner{
         flex-direction: column;
         width: 100%;
@@ -324,22 +320,28 @@ footer{
     }
     .run{
         height: 100%;
-        width: 70%;
+        width: 85%;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding:20px;
-        /* margin-top: 80px;  */
+        padding:5%;
     }
     .run-description{
-        width: 90%;
+        width: 100%;
         
     }
     .join-btn .btn-primary{
         padding: 16px 0px;
     }
+    .join-now{
+        margin: 25px auto;
+        /* margin-left:30px; */
+        padding: 16px 80px;
+    }
     .run-container{
-        width: 100%;
+        width: 90%;
         margin: 0;
+        align-items: center;
     }
     .nav-ul{
         display: none;
@@ -376,11 +378,52 @@ footer{
     }
     /* Run Section */
     .run-img{
-        margin: 0;
+        margin: 0 auto;
+        margin-left: 10px;
         width: 90%;
     }
     .run-title{
         font-size:2.5rem;
+    }
+    /* Team Section */
+    .team-img-container{
+        grid-template-columns:repeat(1, 1fr);
+        gap: 20px;
+        height: 100%; 
+        width: 90%;
+        padding: 20px;
+        margin: 30px auto;
+    }
+
+    /* Footer-Section */
+    .footer{
+        margin-top: 66px;
+        width: 100%;
+        height:1000px;
+        flex-direction: column;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    hr{
+        width: 80%;
+    }
+    .card-container{
+        /* width: 100%; */
+    }
+    .card-1{
+        width: 80%;
+        padding:20px;
+    }
+    .footer-header{
+        padding-left: 20px;
+    }
+    .get-started{
+        
+    }
+   
+    .li-item li{
+        margin-bottom: 20px;
     }
 
 }
