@@ -219,6 +219,58 @@ text-align: left;
     
 }
 /* BMI section */
+.bmi-title{
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 900;
+}
+.bmi-thead-title{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+     font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 34px;   
+}
+.bmi-container{
+    background-color: #231b1b;  
+    margin-top: 85px;
+    margin-bottom: 85px;  
+    display: flex;
+    justify-content: space-around;
+    
+    height: 487px;
+}
+
+table{
+border-collapse: collapse;
+margin-top: 50px;
+}
+td,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);;
+    padding: 13px 41px;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 13px;
+    
+}
+.grid-card{
+    border: 1px solid grey;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color:rgba(255, 255, 255, 0.5);
+}
+
 
 /* Team section */
 .team{
