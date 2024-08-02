@@ -235,7 +235,7 @@ text-align: left;
     margin-bottom: 34px;   
 }
 .bmi-container{
-    background-color: #231b1b;  
+    background-color: rgb(34, 34, 34);  
     margin-top: 85px;
     margin-bottom: 85px;  
     display: flex;
@@ -271,6 +271,9 @@ td{
     color:rgba(255, 255, 255, 0.5);
 }
 
+.bmi-button{
+    margin-top: 32px;
+}
 
 /* Team section */
 .team{
@@ -478,4 +481,24 @@ text-align: left;
         margin-bottom: 20px;
     }
 
+    /* BMI Section */
+    .bmi-container{
+        flex-direction: column;
+        height: 100%;
+        width: 80%;
+    }
+    .bmi-title{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .bmi-table-section{
+        padding-left: 10px;
+    }
+    td,th{
+    height: 50%;
+    weight:30%;
+    padding: 10px 18px;
+    font-size: 10px;
+   }
+   
 }
