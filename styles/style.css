@@ -256,7 +256,7 @@ td{
     color: rgba(255, 255, 255, 0.5);
 }
 
-.grid-container{
+/* .grid-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 13px;
@@ -269,11 +269,36 @@ td{
     background: rgba(255, 255, 255, 0.1);
     border: none;
     color:rgba(255, 255, 255, 0.5);
+} */
+.bmi-parent-flex{
+    display: flex;
+    flex-direction: column;
 }
-
+.bmi-child-flex{
+    display: flex;
+    flex-direction: row;
+}
+.bmi-parent-flex input, .bmi-parent-flex select{
+    border: 1px solid grey;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+.long{
+    width: 78%;
+}
+.bmi-parent-flex select{
+    width: 43.5%;
+}
 .bmi-button{
     margin-top: 32px;
 }
+
 
 /* Team section */
 .team{
@@ -312,7 +337,7 @@ text-align: center;
 hr{
     width: 1059.5px;
     margin-top: 80px;
-    color: #231f1f;
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
 .copy{
     text-align: center;
@@ -322,13 +347,15 @@ hr{
 .footer{
     width: 1440px;
 height: 489px;
-    background: rgba(255, 255, 255, 0.1);    
+    background: rgba(255, 255, 255, 0.1); 
+    margin-top: 88px;   
     
 }
 
 .card-container{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 66px;
     
 }
 .card-1{
