@@ -134,25 +134,52 @@ nav ul li:hover {
   margin-right: 15px;
 }
 
-.img-card{
-  height: 60px;
+.title-img .first-card, .second-card{
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  position: absolute;
-  width: 80px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  left: 1107px;
-  top: 260px;
-  padding: 1px 74px 41px 24px;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  width: 193px;
+  height: 98px;
 }
-.img-card > h3{
+.title-img .first-card{
+  margin-top: -500px;
+  margin-left: 200px;
+}
+.title-img .first-card h3,p{
+  margin: 0; 
+}
+.title-img .second-card h3,p{
+  margin: 0;
+}
+.title-img .first-card h3{
   font-size: 40px;
-  color: rgb(255, 255, 255);
   font-weight: 900;
-
 }
-
+.title-img .second-card h3{
+  font-size: 40px;
+  font-weight: 900;
+}
+.second-card .ball{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(230, 83, 60);
+}
+.second-card{
+  display: flex;
+  gap: 10px;
+  margin-top: 200px;
+  margin-left: -110px;
+}
+.card-descrip{
+  margin: 0;
+}
+.first-card .card-title{
+  margin: 0;
+}
 /* Habits section */
 .habits-img {
   display: flex;
@@ -288,14 +315,17 @@ td {
   margin-bottom: 10px;
   margin-left: 10px;
 }
-.long {
-  width: 76.8%;
+.long{
+  width: 77%;
 }
 .bmi-parent-flex select {
   width: 43.2%;
 }
 .bmi-button {
   margin-top: 32px;
+}
+select option{
+  background-color: black;
 }
 
 /* Team section */
@@ -326,6 +356,16 @@ td {
   line-height: 24px;
   letter-spacing: 0.3px;
   text-align: center;
+}
+.team-img-container div h4{
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: -70px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.team-img-container div p{
+  margin-left: 10px;
 }
 
 /* Footer section */
