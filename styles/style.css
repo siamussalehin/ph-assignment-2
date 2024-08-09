@@ -140,12 +140,11 @@ nav ul li:hover {
   border-radius: 10px;
   align-items: center;
   text-align: center;
-  padding: 1rem 1rem;
-  width: 193px;
-  height: 98px;
+  padding: 1rem ;
+  width: 180px;
 }
 .title-img .first-card{
-  margin-top: -500px;
+  margin-top: -480px;
   margin-left: 200px;
 }
 .title-img .first-card h3,p{
@@ -163,8 +162,8 @@ nav ul li:hover {
   font-weight: 900;
 }
 .second-card .ball{
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background-color: rgb(230, 83, 60);
 }
@@ -172,7 +171,7 @@ nav ul li:hover {
   display: flex;
   gap: 10px;
   margin-top: 200px;
-  margin-left: -110px;
+  margin-left: -130px;
 }
 .card-descrip{
   margin: 0;
@@ -252,6 +251,7 @@ nav ul li:hover {
   border-radius: 18px;
   width: 500px;
   margin-right: 32px;
+transform: scale(.90);
 }
 .run-container {
   width: 400px;
@@ -325,7 +325,7 @@ td {
   margin-top: 32px;
 }
 select option{
-  background-color: black;
+  background-color:black;
 }
 
 /* Team section */
@@ -557,11 +557,14 @@ hr {
   }
 
   /* Calculator section */
-   /* .bmi-child-flex{
-    width: 20%;
-    padding: 10%;
-  }
-  .bmi-parent-flex{
-    width: 30%;
-  } */
+.bmi-parent-flex .bmi-child-flex input{
+  width: 40%;
+  height: 20%;
+  gap:0;
+}
+.bmi-parent-flex{
+  /* width: 90%; */
+  align-items: center;
+}
+
 }
