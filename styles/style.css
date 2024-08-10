@@ -566,5 +566,25 @@ hr {
   /* width: 90%; */
   align-items: center;
 }
+/* card section */
+.title-img .first-card{
+  padding: 10px 0 10px 0;
+  margin-left: 170px;
+  height: 60%;
+  width: 60%;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.title-img .second-card{
+  margin-left: 20px;
+  height: 60%;
+  width: 60%;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.bmi-table-section,table{
+  width: 100%;
+}
 
 }
